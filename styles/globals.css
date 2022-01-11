@@ -14,3 +14,50 @@ a {
 * {
   box-sizing: border-box;
 }
+.container{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+
+}
+.nav{
+  display: flex;
+}
+.nav a{
+  padding: .3rem 1rem;
+  margin: 5px;
+  text-align: center;
+  border-right: 1px solid #029292;
+}
+.nav a:hover{
+  background: #029292;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.app{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.ssr-data{
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 1rem 0;
+  padding: .3rem 1rem;
+  border-radius: 5px;
+}
+.ssr-data p{
+  width: 25px;
+  height: 25px;
+  background: #00aeff;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 10px;
+}
+.ssr-data h3{
+  font-weight: 500;
+}
+.ssr-data h3:hover{
+  color: #00aeff;
+  cursor: pointer;
+}
